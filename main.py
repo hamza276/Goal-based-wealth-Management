@@ -4,19 +4,68 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 
-# Define sector tickers and corresponding industries directly using tickers as keys
+# Define sector tickers and corresponding industries
 sector_tickers = {
-    "XLI": "Industrials",
-    "XLV": "Healthcare",
-    "XLK": "Technology",
-    "XLRE": "Real Estate",
-    "XLB": "Basic Materials",
-    "XLF": "Financials",
-    "XLU": "Utilities",
-    "XLY": "Consumer Cyclicals",
-    "XLP": "Consumer Non-Cyclicals",
-    "XLE": "Energy"
+    # Broader Market and Regional ETFs
+    "SPY": "S&P 500",
+    "QQQ": "Nasdaq 100",
+    "DIA": "Dow Jones Industrial Average",
+    "IWM": "Russell 2000",
+    "ITOT": "Total Stock Market",
+    "VEA": "Developed Markets",
+    "VWO": "Emerging Markets",
+    "EEM": "Emerging Market Equities",
+    "ACWI": "Global Market",
+    
+    # Country and Region Specific
+    "EWJ": "Japan",
+    "EWZ": "Brazil",
+    "EWW": "Mexico",
+    "EWL": "Switzerland",
+    "EWI": "Italy",
+    "EWU": "United Kingdom",
+    "EWP": "Spain",
+    "EWA": "Australia",
+    "EWC": "Canada",
+    "EWQ": "France",
+    "EWD": "Sweden",
+    
+    # Fixed Income
+    "TLT": "20+ Year Treasury Bonds",
+    "SHY": "1-3 Year Treasury Bonds",
+    "IEF": "7-10 Year Treasury Bonds",
+    "BND": "Total Bond Market",
+    "AGG": "Aggregate Bond Market",
+    "LQD": "Investment Grade Corporate Bonds",
+    "HYG": "High Yield Corporate Bonds",
+    
+    # Commodities
+    "GLD": "Gold",
+    "SLV": "Silver",
+    "USO": "Crude Oil",
+    "UNG": "Natural Gas",
+    "DBC": "Commodities Basket",
+    
+    # Alternative Investments
+    "VNQ": "Real Estate Investment Trusts (REITs)",
+    "REM": "Mortgage REITs",
+    "TIP": "Inflation-Protected Bonds",
+    "PFF": "Preferred Stocks",
+    
+    # Thematic and Sector-Specific
+    "XHB": "Homebuilders",
+    "SMH": "Semiconductors",
+    "SOXX": "Semiconductor Index",
+    "XRT": "Retail",
+    "XME": "Metals & Mining",
+    "XOP": "Oil & Gas Exploration",
+    "IBB": "Biotechnology",
+    "ARKK": "Innovation & Disruption",
+    "PBW": "Clean Energy",
+    "TAN": "Solar Energy",
+    "MJ": "Cannabis Industry",
 }
+
 
 # Risk level preferences
 risk_level_mapping = {
