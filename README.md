@@ -2,13 +2,6 @@
 
 This is a **Streamlit-based sector allocation tool** that enables users to determine optimal portfolio allocations across different market sectors based on selected **risk levels** and **time horizons**. Using **historical stock data** from Yahoo Finance, the app organizes sectors into three distinct categories, each containing four sectors with tailored weights, to help align investment preferences with specific risk tolerances and investment durations.
 
-## Features
-
-- **User-Defined Risk Levels**: Choose from Conservative, Moderate, and Aggressive risk levels, each applying different weightings to returns and volatility.
-- **Time Horizon Customization**: Select between Short (0-2 years), Medium (3-7 years), and Long (8-10 years) investment horizons to adjust the impact of returns and volatility on sector scores.
-- **Real-Time Data Fetching**: Retrieves historical adjusted closing prices from Yahoo Finance, computing average returns and volatility for each sector.
-- **Category-Based Sector Allocation**: Divides sectors into three categories of four sectors each, ranked and weighted by calculated scores based on the selected risk profile and time horizon.
-- **Interactive Visualizations**: Displays sector weights in intuitive tables and bar charts for each category, facilitating comparisons across sectors.
 
 ## Scoring Methodology
 
