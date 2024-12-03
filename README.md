@@ -1,6 +1,6 @@
 # Sector Allocation Portfolio Optimization
 
-This is a **Streamlit-based sector allocation tool** that enables users to determine optimal portfolio allocations across different market sectors based on selected **risk levels** and **time horizons**. Using **historical stock data** from Yahoo Finance, the app organizes sectors into three distinct categories, each containing four sectors with tailored weights, to help align investment preferences with specific risk tolerances and investment durations.
+This is a **Streamlit-based sector allocation tool** that enables users to determine optimal portfolio allocations across different market sectors. Using **historical stock data** from Yahoo Finance, the app organizes sectors into three distinct categories, each containing four sectors with tailored weights, to help align investment preferences with specific risk tolerances and investment durations.
 
 
 ## Scoring Methodology
