@@ -76,9 +76,9 @@ risk_level_mapping = {
 
 # Time horizon adjustments (example settings, you can customize further)
 time_horizon_mapping = {
-    "Short (0-2 years)": {"volatility_adjustment": 1.0, "return_adjustment": 0.8},
-    "Medium (3-7 years)": {"volatility_adjustment": 0.9, "return_adjustment": 1.0},
-    "Long (8-10 years)": {"volatility_adjustment": 0.8, "return_adjustment": 1.2}
+    "Short (1-10 years)": {"volatility_adjustment": 1.0, "return_adjustment": 0.8},
+    "Medium (11-20 years)": {"volatility_adjustment": 0.9, "return_adjustment": 1.0},
+    "Long (21-30 years)": {"volatility_adjustment": 0.8, "return_adjustment": 1.2}
 }
 
 # Streamlit interface for user input
