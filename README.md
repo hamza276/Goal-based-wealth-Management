@@ -15,7 +15,7 @@ To set up and run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/hamza276/Sector-Weight-Allocation.git
+   git clone https://github.com/hamza276/Goal-based-wealth-Management.git
    ```
 
 2. **Install Requirements**:
